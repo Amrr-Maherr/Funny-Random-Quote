@@ -2,6 +2,8 @@
 
 **Funny Random Quote** is a web application designed to bring a smile to your face with randomly generated humorous quotes. Users can switch between light and dark modes to personalize their experience. This app is built with a responsive design to ensure optimal display across various devices.
 
+![Screenshot of Funny-Random-Quote Project]( https://github.com/Amrr-Maherr/Funny-Random-Quote/blob/master/Readme%20images/Funny%20Random%20Quote%20and%205%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%208_18_2024%2011_47_22%20PM.png?raw=true)
+
 ## 📜 Features
 
 - **Random Quote Generation**: Displays a new humorous quote and its author with each button click, using a combination of arrays and random number generation.
