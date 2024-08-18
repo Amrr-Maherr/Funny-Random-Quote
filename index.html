@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap JavaScript Bundle (with Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>Funny Random Quote</title>
 </head>
+
 <body>
+    <!-- Container for the entire content, centered using flex utilities -->
     <div class="container-fluid d-flex align-items-center justify-content-center">
+        <!-- Dark/Light Mode Switch -->
         <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
             <label class="form-check-label text-dark" for="flexSwitchCheckDefault">Light Mode</label>
         </div>
+        <!-- Title for the Quotes Section -->
         <div class="quote-title my-4">
             <h1 class="display-1 title">Funny Quotes</h1>
         </div>
-        <div class="container p-5 bg-dark  d-flex align-items-center justify-content-center text-center">
+        <!-- Container for displaying quotes -->
+        <div class="container p-5 bg-dark d-flex align-items-center justify-content-center text-center">
             <h2 class="quote display-4 text-white my-4">Generate quote</h2>
             <h4 class="quote display-6 text-white"></h4>
         </div>
+        <!-- Button to generate a new quote -->
         <div class="quoteBtn my-4">
             <button type="button" class="btn btn-dark fs-3">Generate</button>
         </div>
     </div>
+    <!-- Link to custom JavaScript file -->
     <script src="js/main.js"></script>
 </body>
+
 </html>

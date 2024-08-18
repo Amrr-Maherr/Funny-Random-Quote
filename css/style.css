@@ -1,9 +1,22 @@
+/* Style for .container-fluid class */
 .container-fluid {
     width: 100%;
+    /* Full width of the viewport */
     height: 100vh;
+    /* Full height of the viewport */
     flex-flow: column;
+    /* Arrange children elements in a column */
 }
+
+/* Style for .container class */
 .container {
     height: 50%;
-        flex-flow: column;
+    /* Height is 50% of the parent element's height */
+}
+
+/* Applying column layout to both .container and .container-fluid */
+.container,
+.container-fluid {
+    flex-flow: column;
+    /* Ensure children elements are arranged in a column */
 }
