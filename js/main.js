@@ -77,7 +77,6 @@ function DarkMode() {
     button.classList.add("bg-white"); // Change button background to white
     button.classList.add("text-dark"); // Change button text color to dark
   } else {
-    label.textContent = "Light Mode"; // Change label text to 'Light Mode'
     document.body.classList.remove("bg-dark"); // Remove dark background from the body
     label.classList.remove("text-white"); // Remove white text color from label
     container.classList.remove("bg-white"); // Remove white background from container
