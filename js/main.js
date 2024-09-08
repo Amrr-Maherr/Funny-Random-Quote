@@ -68,7 +68,7 @@ function DarkMode() {
     // Check if the checkbox is checked
     document.body.classList.add("bg-dark"); // Add dark background to the body
     document.body.style.transition = "0.5s"; // Add transition effect
-    label.textContent = "Dark Mode"; // Change label text to 'Dark Mode'
+    
     label.classList.add("text-white"); // Set text color of label to white
     container.classList.add("bg-white"); // Change container background to white
     title.classList.add("text-white"); // Change title text color to white
